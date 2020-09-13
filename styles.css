@@ -20,8 +20,8 @@ html {
 
 
 .main {
-    height: 70vh;
-    margin-bottom: 6vh;
+    min-height: 68vh;
+    margin-bottom: 4vh;
 
 }
 
@@ -29,7 +29,7 @@ html {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-top: 11vh;
+    margin-top: 16vh;
     align-items: center;
     
 }
@@ -89,7 +89,7 @@ html {
     margin:0;
     text-align: center;
     font-family: monospace;
-
+    font-size: 1.2rem;
 }
 
 
@@ -97,13 +97,13 @@ html {
 
 @media (min-width: 768px) {
     .main {
-        height: 62vh;
-        margin-top: 10vh;
-        margin-bottom: 14vh;
+        min-height: 60vh;
+        margin-top: 2vh;
+        margin-bottom: 12vh;
   }
 
     .parrafoBio {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
 
     .pie {
@@ -111,7 +111,7 @@ html {
     }
 
     .descripcionFooter {
-        font-size: 1.3rem;
+        font-size: 1.1rem;
     }
 }
 
@@ -123,7 +123,6 @@ html {
     }
     
     .subPaginas {
-        margin-bottom: 10vh;
     }
     
     .tituloBio {
@@ -143,7 +142,7 @@ html {
     .linksSubPaginas{
         padding: 2%;
         font-size: 0.7rem;
-        width: 18%;
+        width: 16%;
         }
 
 
