@@ -1,0 +1,91 @@
+* {
+    /* border: 1px solid black; */
+    font-family: 'Quicksand', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700;900&display=swap');
+
+html {
+    font-size: calc(12px + (24 - 12) * ((100vw - 200px) / (1024 - 200)));
+    background-image: url(img/cool-background.png);
+
+ }
+
+.main {
+    height: 75vh;
+}
+
+.bio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 1.2rem;
+    margin-top: 15vh;
+    align-items: center;
+    
+}
+
+.tituloBio {
+    text-align: center;
+    font-size: 2.2rem;
+    
+}
+
+.parrafoBio {
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    width: 82%;
+}
+
+.subPaginas {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 3vh;
+    text-align: center;
+}
+
+.linksSubPaginas{
+    border: 2px solid black;
+    padding: 2%;
+    font-family: monospace;
+    font-size: 1.4rem;
+    color:black;
+}
+
+.linksSubPaginas:hover{
+    background-color: rgb(206, 175, 119);
+    transition: all 0.5s;
+}
+
+/* FOOTER */
+
+.pie {
+    height: 6%;
+    display: flex;
+    border-top: 1px solid black;
+    align-items: center;
+    justify-content: center;
+}
+
+.descripcionFooter {
+    margin: 0;
+    padding: 2vh;
+}
+
+
+.descripcionFooter p{
+    text-align: center;
+    margin:0;
+    text-align: center;
+    font-family: monospace;
+
+}
+
