@@ -15,19 +15,19 @@
 html {
     font-size: calc(12px + (24 - 12) * ((100vw - 200px) / (1024 - 200)));
     background-image: url(img/cool-background.png);
-
+    background-size: cover;
  }
 
+
 .main {
-    height: 75vh;
+    height: 79vh;
 }
 
 .bio {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    font-size: 1.2rem;
-    margin-top: 15vh;
+    margin-top: 11vh;
     align-items: center;
     
 }
@@ -43,6 +43,8 @@ html {
     font-family: 'Quicksand', sans-serif;
     font-weight: 500;
     width: 82%;
+    font-size: 1.3em;
+
 }
 
 .subPaginas {
@@ -68,7 +70,7 @@ html {
 /* FOOTER */
 
 .pie {
-    height: 6%;
+    height: 12vh;
     display: flex;
     border-top: 1px solid black;
     align-items: center;
@@ -81,7 +83,7 @@ html {
 }
 
 
-.descripcionFooter p{
+.descripcionFooter div{
     text-align: center;
     margin:0;
     text-align: center;
@@ -89,3 +91,79 @@ html {
 
 }
 
+
+/* RESPONSIVE IPAD */
+
+@media (min-width: 768px) {
+    .main {
+        height: 75vh;
+        margin-top: 20vh;
+  }
+
+    .parrafoBio {
+        font-size: 1.5rem;
+    }
+
+    .pie {
+        height: 12vh;
+    }
+
+    .descripcionFooter {
+        font-size: 1.3rem;
+    }
+}
+
+/* RESPONSIVE DESKTOP */
+
+@media (min-width: 1024px) {
+    .main {
+        height: 76vh;
+    }
+    
+    .bio {
+        margin-top: 7vh;
+    }
+    
+    .tituloBio {
+        font-size: 1.8rem;
+        
+    }
+    
+    .parrafoBio {
+        font-size: .8rem;
+    }
+
+    .subPaginas {
+        margin: 3vh;
+    }
+
+    .linksSubPaginas{
+        padding: 2%;
+        font-size: 0.7rem;
+        width: 18%;
+        }
+
+
+/* FOOTER RESPONSIVE DESKTOP */
+
+    .pie {
+        display: flex;
+        border-top: 1px solid black;
+        align-items: center;
+        justify-content: center;
+        height: 16vh;
+        }
+
+    .descripcionFooter {
+        margin: 1vh;
+        padding: 3vh;
+        }
+
+
+    .descripcionFooter div{
+        text-align: center;
+        font-family: monospace;
+        font-size: 0.7rem;
+        }
+
+}
