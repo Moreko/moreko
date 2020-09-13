@@ -76,6 +76,7 @@ html {
     border-top: 1px solid black;
     align-items: center;
     justify-content: center;
+    background-color: rgba(165, 160, 151, 0.3);
 }
 
 .descripcionFooter {
@@ -119,7 +120,7 @@ html {
 
 @media (min-width: 1024px) {
     .main {
-        height: 62vh;
+        min-height: 58vh;
     }
     
     .subPaginas {
@@ -153,11 +154,9 @@ html {
         border-top: 1px solid black;
         align-items: center;
         justify-content: center;
-        height: 2vh;
         }
 
     .descripcionFooter {
-        margin-top: 10vh;
         }
 
 
