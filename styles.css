@@ -20,7 +20,9 @@ html {
 
 
 .main {
-    height: 79vh;
+    height: 70vh;
+    margin-bottom: 6vh;
+
 }
 
 .bio {
@@ -51,8 +53,7 @@ html {
     display: flex;
     justify-content: space-evenly;
     margin: 3vh;
-    text-align: center;
-}
+    text-align: center;}
 
 .linksSubPaginas{
     border: 2px solid black;
@@ -96,8 +97,9 @@ html {
 
 @media (min-width: 768px) {
     .main {
-        height: 75vh;
-        margin-top: 20vh;
+        height: 62vh;
+        margin-top: 10vh;
+        margin-bottom: 14vh;
   }
 
     .parrafoBio {
@@ -117,20 +119,21 @@ html {
 
 @media (min-width: 1024px) {
     .main {
-        height: 76vh;
+        height: 62vh;
     }
     
-    .bio {
-        margin-top: 7vh;
+    .subPaginas {
+        margin-bottom: 10vh;
     }
     
     .tituloBio {
-        font-size: 1.8rem;
+        font-size: 1.7rem;
         
     }
     
     .parrafoBio {
-        font-size: .8rem;
+        font-size: .7rem;
+        width: 65%;
     }
 
     .subPaginas {
@@ -151,19 +154,18 @@ html {
         border-top: 1px solid black;
         align-items: center;
         justify-content: center;
-        height: 16vh;
+        height: 2vh;
         }
 
     .descripcionFooter {
-        margin: 1vh;
-        padding: 3vh;
+        margin-top: 10vh;
         }
 
 
     .descripcionFooter div{
         text-align: center;
         font-family: monospace;
-        font-size: 0.7rem;
+        font-size: 0.6rem;
         }
 
 }
